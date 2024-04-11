@@ -11,13 +11,15 @@ export default function AuthInput({
   placeholder,
 }: AuthInputProps) {
   return (
-    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 ">
-      {label}
+    <div className="mb-4">
+      <label className="text-gray-700 text-sm font-medium mb-2">
+        {label}
+      </label>
       <input
         type={type}
-        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block"
+        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 bg-sky-200"
         placeholder={placeholder}
       />
-    </label>
+    </div>
   );
 }
