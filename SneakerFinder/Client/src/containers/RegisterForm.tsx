@@ -1,8 +1,6 @@
 import React from "react";
 import AuthInput from "@/components/AuthInput";
 import SocialButton from "@/components/SocialButton";
-import google from "@/assets/icons/google.svg";
-import apple from "@/assets/icons/apple.svg";
 import AuthButton from "@/components/AuthButton";
 
 export default function RegisterForm() {
@@ -19,8 +17,8 @@ export default function RegisterForm() {
         </div>
         <form className="mt-8 space-y-6">
           <div className="grid grid-cols-2 gap-3">
-            <SocialButton icon={google} name="Google" />
-            <SocialButton icon={apple} name="Apple" />
+            <SocialButton icon="/icons/google.svg" name="Google" />
+            <SocialButton icon="/icons/apple.svg" name="Apple" />
           </div>
           <div className="flex items-center justify-center space-x-2">
             <span className="h-px w-16 bg-gray-300"></span>
