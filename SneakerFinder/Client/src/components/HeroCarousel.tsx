@@ -34,7 +34,7 @@ export default function HeroCarousel({}: Props) {
           objectFit="cover"
           objectPosition="center"
         />
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <p className="text-white text-6xl font-bold mb-4">
             {captions[currentImage]}

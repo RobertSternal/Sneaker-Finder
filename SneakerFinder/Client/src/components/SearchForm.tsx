@@ -21,11 +21,14 @@ export default function SearchForm({}: Props) {
           type="text"
           value={searchTerm}
           onChange={handleInputChange}
-          className="p-2 rounded-lg flex-grow mr-5 w-96 opacity-75 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-opacity-50"
-          placeholder="Wpisz szukaną frazę..."
+          className="p-2 rounded-lg flex-grow mr-5 w-96 opacity-70 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-opacity-50 focus:opacity-85 placeholder-slate-800 "
+          placeholder="Wyszukaj markę, model..."
         />
 
-        <Button name="Szukaj" className="w-36" />
+        <Button
+          name="Szukaj"
+          className="w-36 rounded-lg border-2 border-slate-400"
+        />
       </form>
     </>
   );
