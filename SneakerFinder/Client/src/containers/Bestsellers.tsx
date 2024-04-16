@@ -6,7 +6,7 @@ export default function Bestsellers() {
   return (
     <>
       <H1>Bestsellery</H1>
-      <TrendingCard />
+      <TrendingCard name="Adidas Yeezy Boost 350 V2 Onyx" price={500}/>
     </>
   );
 }

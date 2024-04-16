@@ -6,7 +6,12 @@ export default function PopularBrands() {
   return (
     <>
       <H1>Popularne Marki</H1>
-      <BrandsCard />
+      <div className="flex space-x-10 text-center justify-center">
+        <BrandsCard name="Nike" />
+        <BrandsCard name="Nike" />
+        <BrandsCard name="Nike" />
+        <BrandsCard name="Nike" />
+      </div>
     </>
   );
 }
