@@ -48,7 +48,6 @@ export default function Footer() {
             alt="Facebook"
             width={50}
             height={50}
-            className="bg-slate-50"
           />
         </a>
         <a
@@ -61,7 +60,6 @@ export default function Footer() {
             alt="Instagram"
             width={50}
             height={50}
-            className="bg-slate-50"
           />
         </a>
         <a
@@ -74,7 +72,6 @@ export default function Footer() {
             alt="TikTok"
             width={50}
             height={50}
-            className="bg-slate-50"
           />
         </a>
       </div>
