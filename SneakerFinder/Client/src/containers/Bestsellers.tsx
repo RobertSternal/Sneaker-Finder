@@ -5,7 +5,7 @@ import React from "react";
 export default function Bestsellers() {
   return (
     <>
-      <H1>Bestsellery</H1>
+      <H1 className="px-12">Bestsellery</H1>
       <div className="flex justify-around items-center py-10">
         <TrendingCard name="Adidas Yeezy Boost 350 V2 Onyx" price={1099} />
         <TrendingCard name="Jordan 1 UNC" price={899} />
