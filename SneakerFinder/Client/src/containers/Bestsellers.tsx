@@ -6,7 +6,11 @@ export default function Bestsellers() {
   return (
     <>
       <H1>Bestsellery</H1>
-      <TrendingCard name="Adidas Yeezy Boost 350 V2 Onyx" price={500}/>
+      <div className="flex justify-around items-center py-10">
+        <TrendingCard name="Adidas Yeezy Boost 350 V2 Onyx" price={1099} />
+        <TrendingCard name="Jordan 1 UNC" price={899} />
+        <TrendingCard name="Jordan 4 Canvas" price={1099} />
+      </div>
     </>
   );
 }
