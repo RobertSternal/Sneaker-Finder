@@ -1,7 +1,7 @@
 import React from "react";
 import AuthInput from "@/components/AuthInput";
 import SocialButton from "@/components/SocialButton";
-import AuthButton from "@/components/AuthButton";
+import Button from "@/components/Button";
 
 export default function RegisterForm() {
   return (
@@ -80,13 +80,12 @@ export default function RegisterForm() {
                 className="h-4 w-4 text-indigo-600 border-gray-300 rounded"
               />
               <label className="ml-2 block text-sm text-gray-900">
-              I accept the regulations and privacy policy
+                I accept the regulations and privacy policy
               </label>
             </div>
-          
           </div>
           <div>
-            <AuthButton name="Sign in" />
+            <Button name="Sign in" />
           </div>
 
           <div className="mt-6 text-center">

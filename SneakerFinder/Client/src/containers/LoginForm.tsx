@@ -1,7 +1,7 @@
 import React from "react";
 import AuthInput from "@/components/AuthInput";
 import SocialButton from "@/components/SocialButton";
-import AuthButton from "@/components/AuthButton";
+import Button from "@/components/Button";
 
 export default function LoginForm() {
   return (
@@ -58,7 +58,7 @@ export default function LoginForm() {
             </div>
           </div>
           <div>
-            <AuthButton name="Zaloguj się"/>
+            <Button name="Zaloguj się" />
           </div>
 
           <div className="mt-6 text-center">

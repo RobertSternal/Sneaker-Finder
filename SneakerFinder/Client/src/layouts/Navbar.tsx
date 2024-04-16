@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import AuthButton from "@/components/AuthButton";
+import Button from "@/components/Button";
 
 export default function Navbar() {
   return (
@@ -11,7 +11,7 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-center space-x-8">
           <Link href="/" passHref>
-          <Image src="/logo.png" alt="hhh" width={300} height={300} />
+            <Image src="/logo.png" alt="hhh" width={300} height={300} />
           </Link>
 
           <Link href="/" className="text-gray-600 hover:text-gray-800 pl-16 ">
@@ -33,7 +33,7 @@ export default function Navbar() {
             Promocje
           </Link>
 
-          <AuthButton className="" name="Sign in" />
+          <Button className="" name="Sign in" />
         </div>
       </nav>
     </header>
