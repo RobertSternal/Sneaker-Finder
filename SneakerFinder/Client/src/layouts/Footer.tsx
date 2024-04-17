@@ -33,7 +33,7 @@ export default function Footer() {
           <a href="mailto:orders@sneakersjoint.com" className="mb-2">
             orders@sneakerfinder.com
           </a>
-          <a href="tel:+48571285098">+48 571 285 098</a>
+          <a href="tel:+48571285098">+48 696 996 776</a>
           <p className="mt-2">Poniedziałek – piątek od 9:00 do 18:00</p>
         </div>
       </div>
@@ -67,12 +67,7 @@ export default function Footer() {
           aria-label="TikTok"
           className="hover:opacity-75"
         >
-          <Image
-            src="/icons/tiktok.svg"
-            alt="TikTok"
-            width={50}
-            height={50}
-          />
+          <Image src="/icons/tiktok.svg" alt="TikTok" width={50} height={50} />
         </a>
       </div>
       <div className="flex justify-between items-center w-full">
@@ -82,7 +77,7 @@ export default function Footer() {
           <p>Polish</p>
         </div>
         <div className="flex-1 text-center text-xs">
-          <p>©2023 Sneakers Joint. All rights reserved</p>
+          <p>©2024 Sneakers Finder. All rights reserved</p>
         </div>
       </div>
     </footer>

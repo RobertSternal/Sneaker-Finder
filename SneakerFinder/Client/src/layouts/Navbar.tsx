@@ -33,7 +33,7 @@ export default function Navbar() {
             Promocje
           </Link>
 
-          <Button className="" name="Sign in" />
+          <Button className="" name="Zaloguj się" />
         </div>
       </nav>
     </header>
