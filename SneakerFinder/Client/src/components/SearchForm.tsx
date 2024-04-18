@@ -27,7 +27,7 @@ export default function SearchForm({}: Props) {
 
         <Button
           name="Szukaj"
-          className="w-36 rounded-lg border-2 border-slate-400"
+          className="w-32 rounded-lg border-2 border-slate-400"
         />
       </form>
     </>
