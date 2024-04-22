@@ -5,6 +5,10 @@ const stocksSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  price: {
+    type: Number,
+    required: true,
+  },
 });
 
 const Stockx = mongoose.model("Stockx", stocksSchema);
