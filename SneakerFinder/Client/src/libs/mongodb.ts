@@ -1,14 +1,14 @@
 import mongoose from "mongoose";
 
 const connectMongoDB = () => {
-  const uri = process.env.MONGODB_URI;
-  if (!uri) {
-    console.log("MONGODB_URI is not defined!");
+  const url = process.env.MONGODB_URL;
+  if (!url) {
+    console.log("MONGODB_URL is not defined!");
     return;
   }
 
   try {
-    mongoose.connect(uri);
+    mongoose.connect(url);
     console.log("Connected to MongoDB!");
   } catch (error) {
     console.log(error);
