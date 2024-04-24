@@ -1,6 +1,6 @@
 import TrendingCard from "@/components/TrendingCard";
-import Footer from "@/layouts/Footer";
-import Navbar from "@/layouts/Navbar";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 export default function Brand() {
   return (

@@ -1,8 +1,8 @@
 import ProductDescription from "@/containers/ProductDescription";
 import ProductInfo from "@/containers/ProductInfo";
 import ProductPhotos from "@/containers/ProductPhotos";
-import Footer from "@/layouts/Footer";
-import Navbar from "@/layouts/Navbar";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import React from "react";
 
 export default function Product() {
