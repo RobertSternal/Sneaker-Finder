@@ -5,4 +5,4 @@ const stockxSchema = new mongoose.Schema({
 });
 
 export const Stockx =
-  mongoose.models.Stockx || mongoose.model("Stockx", stockxSchema, "stockxes");
+  mongoose.models.Stockx || mongoose.model("Stockx", stockxSchema);
