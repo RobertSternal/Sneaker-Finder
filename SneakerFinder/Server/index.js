@@ -9,11 +9,14 @@ import { scrape } from "./scrape.js";
 dotenv.config();
 connectMongoDB();
 
-const URL = "https://stockx.com/adidas-yeezy-slide-black-onyx";
+const URL = "https://grailpoint.com/produkt/yeezy-slides-onyx";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-function saveData(data, filePrefix) {
-  const newStockx = new Stockx({ name: data });
+function saveData({ name, price }) {
+  const newStockx = new Stockx({
+    name: name,
+    price: price,
+  });
   newStockx
     .save()
     .then(() => console.log("Data saved to MongoDB!"))

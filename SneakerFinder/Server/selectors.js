@@ -1,5 +1,5 @@
 export const selectors = {
-  title: ".single-product__title",
-  price: "div[class='css-u4p24i'] p[class='chakra-text']",
-  exampleTestButton: "button[data-cy=*'test']",
+  title: ".single-product__title", // Adjust selector if necessary
+  price: ".summary .woocommerce-Price-amount", // Refined selector for the price
+  exampleTestButton: "button[data-cy*='test']", // Example selector
 };
